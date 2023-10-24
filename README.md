@@ -1,4 +1,4 @@
-# Description of the project "Training an acer model based on the MatchboxNet architecture for the keyword spotting task"
+# Description of the project "Training an asr model based on the MatchboxNet architecture for the keyword spotting task"
 
 
 ## About the task
@@ -273,15 +273,6 @@ The sampling rate is 22050. Configuration: repeat - 3, dropout - 0.2.
 
 The experiment was conducted on the basis of augmented train data, but the effects of bass voice were removed. The sampling rate is 22050. 
 Configuration: repeat - 2, dropout - 0.2.
-
-
-## Neural network "from scratch"
-
-After reading several articles and being inspired by the architecture of [Broadcast Residual Learning](https://arxiv.org/abs/2106.04140) I decided to write part of my neural network. In the form of features, it is planned to take PLP. Also basic are mel-spectrograms. 
-
-![brl](https://github.com/Laitielly/Neimark_it_ML/blob/main/exam%20project%20-%20ASR%20-%20keyword%20spotting/images/brl.png)
-
-The neural network itself has already been implemented, but I am at the stage of identifying PLP features. The mel-spectrograms showed a poor result. As soon as the experiments are over, the neural network will be released to open-source.
 
 # Thank you for your attention!
 
